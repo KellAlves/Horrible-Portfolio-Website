@@ -1,0 +1,204 @@
+body {
+    font-family: 'Crimson Text', serif;
+    background: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+main {
+    width: 85%;
+    padding-bottom: 80px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    background-color: #851944;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans Condensed", arial, serif;
+    padding: 25px;
+    margin: 0px;
+    border-bottom: 10px black solid;
+}
+
+main h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: "Open Sans Condensed", arial, serif;
+    clear: both;
+}
+
+main div { 
+    padding: 30px 0;   
+    width: 720px;
+    margin: auto;
+}
+
+em {
+    font-style: italic
+}
+
+strong {
+    font-weight: bolder;
+}
+
+p {
+    text-align: justify;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+    border: 10px #C2CCCA solid;
+    padding: 20px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: justify;
+    margin:  0 auto;
+    width: 840px;
+    padding: 40px 0;
+    padding-bottom: 80px;
+}
+
+.fiat {
+    margin: 20px 40px;
+    float: right;
+}
+
+.petrobras {
+    margin-right: 40px;
+    float: left;
+}
+
+cite {
+    font-style: oblique;
+}
+
+
+.foto-perfil {
+    position: absolute;
+    right: 0px;
+    margin-bottom: 20px;
+    border-left: 10px black solid;
+    border-bottom: 10px black solid;
+}
+
+.navegacao-site {
+    position: relative;
+    top: 310px;    
+    border-left: 10px black solid;
+    border-bottom: 10px black solid;
+}
+
+
+aside {
+    width: 250px;
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    float: right;
+    clear: both;
+}
+
+aside h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside a {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.sociais li {
+    margin-top: 20px;
+    display: inline-block;   
+}
+
+.tags-seo {
+    font-weight: bolder;
+    color: black;
+    padding: 0px;
+    border-bottom: 1px solid #CCC;
+}
+
+.rodape-blog {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    padding: 20px;
+}
+
+#leia-mais {
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+    text-align: left;
+    display: block;
+}
+
+nav {
+    padding: 20px;
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+}
+
+.twitter {
+    background-image: url(Twitter.png);
+}
+
+.sociais a {
+    position: relative;
+    bottom: 20px;
+    color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-transform: lowercase;
+    color: #F2FFFC;
+}
+
+main a {
+    color: #851944;
+    font-weight: bolder;
+}
+
+cite {
+    background-color: #D9E5E3;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: black;
+    color: #F2FFFC;
+    clear: both;
+}
+
+footer ul {
+    text-align: right;
+    margin-right: 30px;
+}
